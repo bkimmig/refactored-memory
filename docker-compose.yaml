@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  backend:
+    image: refactored-memory/backend:latest
+    ports:
+      - "8080:8080"
+    entrypoint: sh -c '/dist/main'
