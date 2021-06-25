@@ -5,7 +5,7 @@
 ## Local Development
 
 - `make up`
-- navigate to [http://localhost:8080](http://localhost:8080)
+- navigate to [http://localhost:8080/v0](http://localhost:8080/v0)
 - `ctrl-c` (and maybe `make down` if it doesn't shut down properly)
 
 ## Notes
