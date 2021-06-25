@@ -12,12 +12,12 @@ build:
 	docker build -f Dockerfile -t $(PROJECT)/backend:$(TAG) .
 
 up: build
-	docker-compose -f docker-compose.yaml up --remove-orphans
+	docker compose -f docker-compose.yaml up --remove-orphans
 
 down:
-	docker-compose -f docker-compose.yaml down
+	docker compose -f docker-compose.yaml down
 
 # TODO: implement testing...
 test:
-	docker-compose -f docker-compose.test.yaml up --remove-orphans
+	docker compose -f docker-compose.test.yaml up --remove-orphans
 

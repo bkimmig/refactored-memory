@@ -5,4 +5,4 @@ services:
     image: refactored-memory/backend:latest
     ports:
       - "8080:8080"
-    entrypoint: sh -c '/dist/main'
+    entrypoint: sh -c '/main'
